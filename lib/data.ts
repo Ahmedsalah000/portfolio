@@ -6,6 +6,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import BLOG from "@/public/images/BLOG.png";
 import MOVIES from "@/public/images/MOVIES.png";
 import qa from "@/public/images/q^a.png";
+import ecommerce from "@/public/images/ecommerce.png";
 
 export const links = [
   {
@@ -62,6 +63,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Brand Shop",
+    description:
+      " A full-stack e-commerce website where users can buy and sell products. It has features like authentication, payment, shipping, and user management.",
+    tags: ["React", "Redux", "bootstrap", "Node.js", "Express.js", "MongoDB","cloudinary"],
+    imageUrl: ecommerce,
+  },
   {
     title: "MERN Blog",
     description:
