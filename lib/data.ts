@@ -69,6 +69,7 @@ export const projectsData = [
       " A full-stack e-commerce website where users can buy and sell products. It has features like authentication, payment, shipping, and user management.",
     tags: ["React", "Redux", "bootstrap", "Node.js", "Express.js", "MongoDB","cloudinary"],
     imageUrl: ecommerce,
+    link: "https://brand-shop-ggea.vercel.app/",
   },
   {
     title: "MERN Blog",

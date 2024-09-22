@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  link,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -47,6 +48,7 @@ export default function Project({
             ))}
           </ul>
         </div>
+        <a href={link} target="_blank" rel="noopener noreferrer">
 
         <Image
           src={imageUrl}
@@ -65,6 +67,8 @@ export default function Project({
 
         group-even:right-[initial] group-even:-left-40"
         />
+
+        </a>
       </section>
     </motion.div>
   );
