@@ -77,6 +77,7 @@ export const projectsData = [
       "Here you'll find a variety of articles and tutorials on topics such as MERN stack web development, software engineering, and programming languages..",
     tags: ["React", "ReduxToolKit", "Tailwind", "Firebase", "Node.js", "Express.js", "MongoDB"],
     imageUrl: BLOG,
+    link: "https://mern-blog-m91c.vercel.app/",
   },
   {
     title: "BoxMovies",
@@ -84,6 +85,7 @@ export const projectsData = [
       "A movie app built with React and TMDb API. It has features like search and pagination.",
     tags: ["React", "Redux", "Axios","Bootstrap"],
     imageUrl: MOVIES,
+    link: "https://movies-three-plum.vercel.app/",
   },
   {
     title: "Q&A App",
@@ -93,6 +95,7 @@ export const projectsData = [
 
     tags: ["React"," React-Bootstrap", "Axios"," Node.js", "Express", "MongoDB", "Mongoose"],
     imageUrl: qa,
+    link: "https://q-a-lake.vercel.app/",
   },
 ] as const;
 
