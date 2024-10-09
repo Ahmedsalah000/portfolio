@@ -37,6 +37,7 @@ export default function RootLayout({
             <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
+        
       </body>
     </html>
   );
