@@ -7,6 +7,7 @@ import BLOG from "@/public/images/BLOG.png";
 import MOVIES from "@/public/images/MOVIES.png";
 import qa from "@/public/images/q^a.png";
 import ecommerce from "@/public/images/ecommerce.png";
+import mg from "@/public/images/memogame.png";
 
 export const links = [
   {
@@ -96,6 +97,16 @@ export const projectsData = [
     tags: ["React"," React-Bootstrap", "Axios"," Node.js", "Express", "MongoDB", "Mongoose"],
     imageUrl: qa,
     link: "https://q-a-lake.vercel.app/",
+  },
+  {
+    title: "Memory Game",
+    description:
+      "memorygame",
+        
+
+    tags: ["React",'tailwind.css'],
+    imageUrl: mg,
+    link: "https://memory-game-six-pearl.vercel.app/",
   },
 ] as const;
 
