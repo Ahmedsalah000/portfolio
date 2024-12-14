@@ -11,8 +11,14 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ahmed Salah | Personal Portfolio",
-  description: "Ahmed Salah is a full-stack developer with 1 years of experience.",
+  title: "Ahmed Salah | Aboshendy | Personal Portfolio",
+  description: "Ahmed Salah (Aboshendy) is a full-stack developer with experience in web development. Portfolio showcasing projects and skills.",
+  keywords: ["Aboshendy", "Ahmed Salah", "aboshendy","ابوشندي","أبوشندي", "Full Stack Developer", "Web Developer", "Portfolio"],
+  openGraph: {
+    title: "Ahmed Salah (Aboshendy) - Full Stack Developer",
+    description: "Personal portfolio of Ahmed Salah (Aboshendy), showcasing web development projects and skills",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
