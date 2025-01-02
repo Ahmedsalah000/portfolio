@@ -13,12 +13,23 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Ahmed Salah | Aboshendy | Personal Portfolio",
   description: "Ahmed Salah (Aboshendy) is a full-stack developer with experience in web development. Portfolio showcasing projects and skills.",
-  keywords: ["Aboshendy", "Ahmed Salah", "aboshendy","ابوشندي","أبوشندي", "Full Stack Developer", "Web Developer", "Portfolio"],
+  keywords: ["Aboshendy", "Ahmed Salah", "aboshendy", "ابوشندي", "أبوشندي", "Full Stack Developer", "Web Developer", "Portfolio"],
   openGraph: {
     title: "Ahmed Salah (Aboshendy) - Full Stack Developer",
     description: "Personal portfolio of Ahmed Salah (Aboshendy), showcasing web development projects and skills",
     type: "website",
+    locale: "en_US",
+    siteName: "Aboshendy Portfolio",
+    url: "https://portfolio-g2zi767hs-ahmed-salahs-projects.vercel.app",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aboshendy - Full Stack Developer",
+    description: "Personal portfolio of Ahmed Salah (Aboshendy)",
+  },
+  alternates: {
+    canonical: "https://portfolio-g2zi767hs-ahmed-salahs-projects.vercel.app"
+  }
 };
 
 export default function RootLayout({
