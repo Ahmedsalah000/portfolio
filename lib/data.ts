@@ -162,7 +162,7 @@ export const achievementsData = [
     certificates: [
       {
         name: "Git and Github",
-        imageUrl: "/images/certificates/elmadrsaa/git and github.png",
+        imageUrl: "/images/certificates/elmadrsaa/git and github.PNG",
         link: "https://almdrasa.com/certificate-verification?certificate_id=151279315-15118018C-132E06A38",
         date: "2024-01-14"
       }
