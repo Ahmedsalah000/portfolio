@@ -8,7 +8,7 @@ import MOVIES from "@/public/images/MOVIES.png";
 import qa from "@/public/images/q^a.png";
 import ecommerce from "@/public/images/ecommerce.png";
 import mg from "@/public/images/memogame.png";
-import iot from "@/public/images/iot.png";
+
 
 export const links = [
   {
@@ -82,7 +82,7 @@ export const projectsData = [
     description:
       " A full-stack IOT Dashboard where users can manage their devices and sensors.",
     tags: ["React", "tailwind", "flowbit", "Node.js", "Express.js", "MongoDB","chart.js"],
-    imageUrl: iot,
+    imageUrl: "/images/iot.PNG",
     link: "",
     status:"completed but not deployed"
   },
