@@ -92,7 +92,7 @@ export const projectsData = [
   {
     title: "Akelny",
     description:
-      " Akelny** is a platform that allows restaurant owners to easily build their own restaurant website.",
+      " Akelny is a platform that allows restaurant owners to easily build their own restaurant website.",
 
     tags: ["React", "Redux", "tailwind", "Node.js", "Express.js", "MongoDB","cloudinary","paymob,Google OAuth","google maps"],
     imageUrl: Akelny,
