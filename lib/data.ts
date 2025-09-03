@@ -8,6 +8,7 @@ import MOVIES from "@/public/images/MOVIES.png";
 import qa from "@/public/images/q^a.png";
 import ecommerce from "@/public/images/ecommerce.png";
 import mg from "@/public/images/memogame.png";
+import Akelny from '@/public/images/Akelny.png';
 
 
 export const links = [
@@ -85,6 +86,16 @@ export const projectsData = [
     imageUrl: "/images/iot.PNG",
     link: "",
     status:"completed but not deployed"
+  },
+  {
+    title: "Akelny",
+    description:
+      " **Akelny** is a platform that allows restaurant owners to easily build their own restaurant website under the `akelny.com` domain. It comes with a full-featured dashboard for restaurant management, order tracking, delivery zones, discounts, and analytics. A Super Admin dashboard also exists to oversee all restaurant accounts, earnings, and platform-wide analytics.",
+
+    tags: ["React", "Redux", "tailwind", "Node.js", "Express.js", "MongoDB","cloudinary","paymob,Google OAuth","google maps"],
+    imageUrl: Akelny,
+    link: "https://akelny-orcin.vercel.app/",
+    status: "completed"
   },
   {
     title: "Brand Shop",
