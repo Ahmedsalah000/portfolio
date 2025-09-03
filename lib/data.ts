@@ -1,6 +1,5 @@
 import React from "react";
 import { FaPersonMilitaryRifle } from "react-icons/fa6";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import BLOG from "@/public/images/BLOG.png";
@@ -8,7 +7,10 @@ import MOVIES from "@/public/images/MOVIES.png";
 import qa from "@/public/images/q^a.png";
 import ecommerce from "@/public/images/ecommerce.png";
 import mg from "@/public/images/memogame.png";
-import Akelny from '@/public/images/Akelny.png';
+import Akelny from "@/public/images/Akelny.png";
+import iot from "@/public/images/iot.png";
+
+
 
 
 export const links = [
@@ -83,14 +85,14 @@ export const projectsData = [
     description:
       " A full-stack IOT Dashboard where users can manage their devices and sensors.",
     tags: ["React", "tailwind", "flowbit", "Node.js", "Express.js", "MongoDB","chart.js"],
-    imageUrl: "/images/iot.PNG",
+    imageUrl: iot,
     link: "",
     status:"completed but not deployed"
   },
   {
     title: "Akelny",
     description:
-      " **Akelny** is a platform that allows restaurant owners to easily build their own restaurant website under the `akelny.com` domain. It comes with a full-featured dashboard for restaurant management, order tracking, delivery zones, discounts, and analytics. A Super Admin dashboard also exists to oversee all restaurant accounts, earnings, and platform-wide analytics.",
+      " Akelny** is a platform that allows restaurant owners to easily build their own restaurant website.",
 
     tags: ["React", "Redux", "tailwind", "Node.js", "Express.js", "MongoDB","cloudinary","paymob,Google OAuth","google maps"],
     imageUrl: Akelny,
